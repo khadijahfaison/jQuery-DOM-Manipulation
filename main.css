@@ -1,0 +1,56 @@
+#tabs {
+  padding: 0;
+  list-style: none;
+}
+​ #tabs {
+  display: block;
+}
+​ #tabs {
+  position: relative;
+}
+​ .content {
+  height: 0px;
+  width: 460px;
+  border: 1px solid black;
+  overflow: hidden;
+  transition: height 1.2s;
+  text-align: left;
+}
+​ p {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+​ .show {
+  height: 130px;
+}
+​ #tabs li:first-child .content {
+  display: block;
+}
+​ #tabs a {
+  border: 1px solid black;
+  font-size: 2.5em;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  background-color: rgb(87, 196, 212);
+}
+​ #tabs a.active {
+  background: rgb(117, 240, 249);
+  color: white;
+}
+​ #sectionone {
+  padding-right: 214px;
+  border-bottom-width: 0px;
+  color: white;
+}
+​ #sectiontwo {
+  padding-right: 218px;
+  border-bottom-width: 0px;
+  color: white;
+}
+​ #sectionthree {
+  padding-right: 187px;
+  border-bottom-width: 0px;
+  color: white;
+}
