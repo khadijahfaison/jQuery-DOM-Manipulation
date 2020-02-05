@@ -2,13 +2,14 @@
   padding: 0;
   list-style: none;
 }
-​ #tabs {
+#tabs {
   display: block;
 }
-​ #tabs {
+#tabs {
   position: relative;
 }
-​ .content {
+
+.content {
   height: 0px;
   width: 460px;
   border: 1px solid black;
@@ -16,18 +17,18 @@
   transition: height 1.2s;
   text-align: left;
 }
-​ p {
+
+p {
   margin: 0;
   padding-top: 20px;
   padding-left: 30px;
 }
-​ .show {
+
+.show {
   height: 130px;
 }
-​ #tabs li:first-child .content {
-  display: block;
-}
-​ #tabs a {
+
+#tabs a {
   border: 1px solid black;
   font-size: 2.5em;
   text-decoration: none;
@@ -35,21 +36,21 @@
   font-weight: lighter;
   background-color: rgb(87, 196, 212);
 }
-​ #tabs a.active {
+ #tabs a.active {
   background: rgb(117, 240, 249);
   color: white;
 }
-​ #sectionone {
+ #sectionone {
   padding-right: 214px;
   border-bottom-width: 0px;
   color: white;
 }
-​ #sectiontwo {
+ #sectiontwo {
   padding-right: 218px;
   border-bottom-width: 0px;
   color: white;
 }
-​ #sectionthree {
+ #sectionthree {
   padding-right: 187px;
   border-bottom-width: 0px;
   color: white;
